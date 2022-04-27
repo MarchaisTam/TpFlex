@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleConnexion.css">
+    <title>Connexion</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1>Connexion</h1>
+        <div class="inputPseudo">
+            <label for="userPseudo">Votre pseudo :</label>
+            <input type="text" id="userPseudo" name="userPseudo" placeholder="Mon pseudo">
+        </div>
+        <div class="inputPassword">
+            <label for="userPassword">Votre mot de passe :</label>
+            <input type="password" id="userPassword" name="userPassword" minlength="8" maxlength="30" placeholder="Mot de passe" required>
+        </div>
+        <div>
+            <input type="checkbox" name="rememberMe" id="rememberMe"><label for="rememberMe" class="labelRememberMe">Se souvenir de moi</label>
+        </div>
+        <div class="buttons">
+            <input type="submit" value="Connexion">
+            <button>Retour</button>
+        </div>
+    </form>
+</body>
+</html>

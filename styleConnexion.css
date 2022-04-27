@@ -1,0 +1,41 @@
+form{
+    width: 400px;
+    height: 250px;
+    background-color: lightgray;
+    border: 2px black solid;
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    margin:0px 30px;
+}
+
+.inputPseudo{
+    margin: 20px 0px;
+}
+
+.inputPassword{
+    margin: 20px 0px;
+}
+
+#rememberMe{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.labelRememberMe{
+    margin: 0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+
+
